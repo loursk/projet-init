@@ -1,0 +1,17 @@
+html, body, #app{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.square-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  .square{
+    width: 20rem;
+    height: 20rem;
+    border: 1px solid black;
+  }
+}
